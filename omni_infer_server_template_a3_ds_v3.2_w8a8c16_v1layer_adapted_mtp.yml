@@ -30,8 +30,7 @@
     KV_CONNECTOR: "LLMDataDistConnector"
 
     # Configuration for containers
-    DOCKER_IMAGE_ID: "registry-cbu.huawei
-    .com/omniai_omniinfer/omniinfer-arm-openeuler-py311-a3:cann.8.5.0.b160-pytorch_v2.9.0-202602032046-master-omni_dev_v1.0.0-vllm-202603170006"
+    DOCKER_IMAGE_ID: "registry-cbu.huawei.com/omniai_omniinfer/omniinfer-arm-openeuler-py311-a3:cann.8.5.0.b160-pytorch_v2.9.0-202602032046-master-omni_dev_v1.0.0-vllm-202603170006"
     DOCKER_NAME_P: "zh_ds_v32_v1_ansible_p"
     DOCKER_NAME_D: "zh_ds_v32_v1_ansible_d"
     DOCKER_NAME_C: "zh_ds_v32_v1_ansible_c"
