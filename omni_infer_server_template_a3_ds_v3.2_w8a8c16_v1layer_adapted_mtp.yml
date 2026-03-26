@@ -135,7 +135,7 @@
       fi
 
       # install omni_placement
-      pip uninstall omni_placement -y
+      # pip uninstall omni_placement -y
 
       cd /workspace/omniinfer/tools/scripts
       bash /workspace/omniinfer/tools/scripts/pd_run.sh \
