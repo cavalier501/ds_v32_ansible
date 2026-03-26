@@ -162,7 +162,7 @@
         --extra-args "${EXTRA_ARGS}" \
         --hccl-buffsize "${HCCL_BUFFSIZE}" \
         --hccl-op-expansion-mode "${HCCL_OP_EXPANSION_MODE}" \
-        --num-speculative-tokens 0 \
+        --num-speculative-tokens 1 \
         --log-dir "${LOG_PATH}/{{ inventory_hostname }}" > ${LOG_PATH}/{{ inventory_hostname }}/run_prefill.log 2>&1 &
     
     run_vllm_server_decode_cmd: |
@@ -238,7 +238,7 @@
         --extra-args "${EXTRA_ARGS}" \
         --hccl-buffsize "${HCCL_BUFFSIZE}" \
         --hccl-op-expansion-mode "${HCCL_OP_EXPANSION_MODE}" \
-        --num-speculative-tokens 0 \
+        --num-speculative-tokens 1 \
         --log-dir "${LOG_PATH}/{{ inventory_hostname }}" > ${LOG_PATH}/{{ inventory_hostname }}/run_decode.log 2>&1 &
 
     # --additional-config "$ADDITIONAL_CONFIG" \
